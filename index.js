@@ -13,8 +13,8 @@ lti.setup(
       process.env.DB_HOST +
       '/' +
       process.env.DB_NAME +
-      '?authSource=admin',
-    connection: { user: process.env.DB_USER, pass: process.env.DB_PASS }
+      '?authSource=admin'
+    // connection: { user: process.env.DB_USER, pass: process.env.DB_PASS }
   },
   {
     staticPath: path.join(__dirname, './public'), // Path to static files
