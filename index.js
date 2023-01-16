@@ -8,13 +8,7 @@ const lti = require('ltijs').Provider
 lti.setup(
   process.env.LTI_KEY,
   {
-    url:
-      'mongodb://' +
-      process.env.DB_HOST +
-      '/' +
-      process.env.DB_NAME +
-      '?authSource=admin'
-    // connection: { user: process.env.DB_USER, pass: process.env.DB_PASS }
+    url: process.env.DB_HOST + '/' + process.env.DB_NAME + '?authSource=admin'
   },
   {
     staticPath: path.join(__dirname, './public'), // Path to static files
