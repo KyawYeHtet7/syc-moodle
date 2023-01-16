@@ -49,7 +49,7 @@ const setup = async () => {
   await lti.registerPlatform({
     url: 'https://sandbox.moodledemo.net',
     name: 'Moodle',
-    clientId: 'NmKXelLeyp2tBEh',
+    clientId: 'dAPdsVIYJ8Rc5m6',
     authenticationEndpoint: 'https://sandbox.moodledemo.net/mod/lti/auth.php',
     accesstokenEndpoint: 'https://sandbox.moodledemo.net/mod/lti/token.php',
     authConfig: {
